@@ -1,4 +1,6 @@
 from collections.abc import Mapping
+__version__ = "0.1.0"
+__all__ = ["AttrDict"]
 class AttrDict(dict):
 	"""
 Dictionary with attribute-style access.
